@@ -12,9 +12,14 @@ Therefore, the goal of this project is to compare and rate the neighborhoods in 
 Finding supportive neighborhoods for people with disabilities has three groups of stakeholders. Similar to most other health-related data science problems, the main stakeholders are the patients. The other important stakeholder is the government. The government can use this information to fund accessible housing with specific features for people with disabilities in select neighborhoods. Finally, providers such as real estate agents can use this information to help clients with special needs find good housing.
 
 # Data
-* Foursquare API to obtain information on 3 categories of venues (**health care**, **fitness** & **healthy food**)
-* Walkability scores for each enighbourhood from **Wellbeing Toronto - Civics & Equity Indicators Catalog** found in [toronto open data](https://open.toronto.ca/ "").
-* Pedestrian saftey index for each enighbourhood from **Pedestrians Killed or Seriously Injured (KSI)** found in [toronto police service data](https://data.torontopolice.on.ca/datasets/pedestrians/data "").
+
+For all the 140 neighborhoods in Toronto, the following information will be collected:
+* Information about the **geo coordinates** of each neighborhood using python geopy.geocoders package
+* Information about access (i.e. frequency) to 3 categories of venues (**health care**, **fitness** & **healthy food**) in each neighborhood, using Foursquare API
+* Walkability scores for each neighborhood from **Wellbeing Toronto - Civics & Equity Indicators Catalog** found in [toronto open data](https://open.toronto.ca/ "").
+* Pedestrian saftey index for each neighborhood from **Pedestrians Killed or Seriously Injured (KSI)** found in [toronto police service data](https://data.torontopolice.on.ca/datasets/pedestrians/data "").
+
+Finally, the neighborhoods will be clustered together base on the information about access to health care, fitness, healthy food, Walkability scores, and Pedestrian safety index. 
 
 # Methodology
 # Results
