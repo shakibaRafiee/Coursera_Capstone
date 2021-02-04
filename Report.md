@@ -21,5 +21,10 @@ Therefor, it is import to make sure that people have accessibility to healthcare
 
 
 # Data
+* Foursquare API to obtain information on 3 categories of venues (health care, fitness & healthy food)
+* Walkability scores for each enighbourhood from **Wellbeing Toronto - Civics & Equity Indicators** found in [https://open.toronto.ca/](https://open.toronto.ca/ "").
 
 # Methodology
+# Results
+# Discussion
+# Conclusion
