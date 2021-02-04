@@ -1,9 +1,9 @@
 # Introduction
 
 ### Background:
-The population of people with lower-limb loss has grown over the past half-century in canada [...]. Across all canadian provences, Ontario has the highstes percent of amputations with 37.7% rate [Imam, et al. 2017]. A recent study reports an average of 2787 new lower leg amputations each year from 2006 to 2012 in Ontario alone [Imam, et al. 2017]. 
+The population of people with lower-limb loss has grown over the past decade in canada [Hussain, et al., 2019]. Across all canadian provences, Ontario has the highstes percent of amputations with 37.7% rate [Imam, et al., 2017]. A recent study reports an average of 2787 new lower leg amputations each year from 2006 to 2012 in Ontario alone [Imam, et al., 2017]. 
 
-In canada, similar to the most other industrial coutries, the majority of the lower limb amputation occur aftter admission for diabetic complications [Kayssi,et al. 2016, Imam, et al. 2017]. Other factors for leg amputtions are trauma, cardiovascular disease and cancer. Therefore, having a healthy diet and miantaining a active life style is of paramount importance for this population. The neighbourhood that one lives in can increase/restrict accessibility to these amenities. 
+In canada, similar to the most other industrial coutries, the majority of the lower limb amputation occur aftter admission for diabetic complications [Kayssi,et al., 2016, Imam, et al., 2017]. Other factors for leg amputtions are trauma, cardiovascular disease and cancer. Therefore, having a healthy diet and miantaining a active life style is of paramount importance for this population. The neighbourhood that one lives in can increase/restrict accessibility to these amenities. 
 
 ### Problem:
 Thus the problem is: Which toronto neighbourhoods are the best to live in for people with lower-limb loss?
@@ -24,5 +24,7 @@ Therefore, the goal of this project it compare and rate the neighbourhoods in to
 # Discussion
 # Conclusion
 # Refrences
+* Hussain, M. A., Al-Omran, M., Salata, K., Sivaswamy, A., Forbes, T. L., Sattar, N., ... & de Mestral, C. (2019). Population-based secular trends in lower-extremity amputation for diabetes and peripheral artery disease. CMAJ, 191(35), E955-E961.
 * Imam, B., Miller, W. C., Finlayson, H. C., Eng, J. J., & Jarus, T. (2017). Incidence of lower limb amputation in Canada. Canadian Journal of Public Health, 108(4), 374-380.
 * Kayssi, A., de Mestral, C., Forbes, T. L., & Roche-Nagle, G. (2016). A Canadian population-based description of the indications for lower-extremity amputations and outcomes. Canadian Journal of Surgery, 59(2), 99.
+
