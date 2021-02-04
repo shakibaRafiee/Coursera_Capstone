@@ -1,23 +1,19 @@
 # Introduction
 
 
-## Problem
-Best neighbourhoods to live in as person with lower leg loss?
+### Background
+In the period of 2006 to 2012, 16,724 recorded cases of lower leg amputations occured in Ontario [Imam, et al. 2017]. The population of people with lower-limb loss has grown in the past decade [...]. 
 
-## Stakeholder
-Finding supportive neighbourhoods for people with disability has three groups of stakeholders. Similar to most other health-related data scince problems, the main stakeholder are the patient. The other important stakeholder is the government. The governmnet can use this information to fund accessible housing with specific features for people with disability in select neighbourhoods. Finally, provoiders such as realstate agents can use this information to help clients with special needs find good housing.
+In canada, the majority of the lower limb amputation occur aftter admission for diabetic complications [Kayssi,et al. 2016, Imam, et al. 2017]. Other factors are trauma, cardiovascular disease and cancer. Therefore, having a healthy diet and miantaining a active life style is of paramount importance for this population. The neighbourhood that one lives in can increase/restrict accessibility to these amenities. 
 
+### Problem
+Thus the problem is:
+Which toronto neighbourhoods are the best to live in for people with lower-limb loss?
 
-## Factors
-Since, a large portion of the lower limb amputation is a secondary to diabetic complications, having a healthy diet is importatn. 
+### Stakeholder
+Finding supportive neighbourhoods for people with disability has three groups of stakeholders. Similar to most other health-related data scince problems, the main stakeholder are the patients. The other important stakeholder is the government. The governmnet can use this information to fund accessible housing with specific features for people with disability in select neighbourhoods. Finally, provoiders such as realstate agents can use this information to help clients with special needs find good housing.
 
-People with leg amutation should stay active []
-
-"one diabetes-related lower-limb amputation occurring every 30 seconds worldwide" [Boulton AJ, Vileikyte L, Ragnarson-Tennvall G, et al. The global burden of diabetic foot disease. Lancet 2005;366:1719–24]
-
-" Together, peripheral artery disease and diabetes account for more than 80% of lower-extremity amputations in Canada" [Kayssi A, de Mestral C, Forbes TL, et al. Predictors of hospital readmissions after lower extremity amputations in Canada. J Vasc Surg 2016;63:688–95]
-
-Therefor, it is import to make sure that people have accessibility to healthcare, exercise and healthy diet. 
+Therefore, the goal of this project it compare and rate the neighbourhoods in toronto where lower-limb amputee people will have accessibility to healthcare, exercise and healthy diet. 
 
 
 # Data
@@ -29,3 +25,6 @@ Therefor, it is import to make sure that people have accessibility to healthcare
 # Results
 # Discussion
 # Conclusion
+# Refrences
+* Imam, B., Miller, W. C., Finlayson, H. C., Eng, J. J., & Jarus, T. (2017). Incidence of lower limb amputation in Canada. Canadian Journal of Public Health, 108(4), 374-380.
+* Kayssi, A., de Mestral, C., Forbes, T. L., & Roche-Nagle, G. (2016). A Canadian population-based description of the indications for lower-extremity amputations and outcomes. Canadian Journal of Surgery, 59(2), 99.
