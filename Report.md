@@ -8,10 +8,11 @@ In canada, the majority of the lower limb amputation occur aftter admission for 
 
 ### Problem
 Thus the problem is:
+
 Which toronto neighbourhoods are the best to live in for people with lower-limb loss?
 
 ### Stakeholder
-Finding supportive neighbourhoods for people with disability has three groups of stakeholders. Similar to most other health-related data scince problems, the main stakeholder are the patients. The other important stakeholder is the government. The governmnet can use this information to fund accessible housing with specific features for people with disability in select neighbourhoods. Finally, provoiders such as realstate agents can use this information to help clients with special needs find good housing.
+Finding supportive neighbourhoods for people with disability has three groups of stakeholders. Similar to most other health-related data scince problems, the main stakeholder are the patients. The other important stakeholder is the government. The governmnet can use this information to fund accessible housing with specific features for people with disability in select neighbourhoods. Finally, provoiders such as real estate agents can use this information to help clients with special needs find good housing.
 
 Therefore, the goal of this project it compare and rate the neighbourhoods in toronto where lower-limb amputee people will have accessibility to healthcare, exercise and healthy diet. 
 
