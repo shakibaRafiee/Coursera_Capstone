@@ -7,9 +7,7 @@ In the period of 2006 to 2012, 16,724 recorded cases of lower leg amputations oc
 In canada, the majority of the lower limb amputation occur aftter admission for diabetic complications [Kayssi,et al. 2016, Imam, et al. 2017]. Other factors are trauma, cardiovascular disease and cancer. Therefore, having a healthy diet and miantaining a active life style is of paramount importance for this population. The neighbourhood that one lives in can increase/restrict accessibility to these amenities. 
 
 ### Problem
-Thus the problem is:
-
-Which toronto neighbourhoods are the best to live in for people with lower-limb loss?
+Thus the problem is: Which toronto neighbourhoods are the best to live in for people with lower-limb loss?
 
 ### Stakeholder
 Finding supportive neighbourhoods for people with disability has three groups of stakeholders. Similar to most other health-related data scince problems, the main stakeholder are the patients. The other important stakeholder is the government. The governmnet can use this information to fund accessible housing with specific features for people with disability in select neighbourhoods. Finally, provoiders such as real estate agents can use this information to help clients with special needs find good housing.
