@@ -18,7 +18,7 @@ Therefore, the goal of this project it compare and rate the neighbourhoods in to
 # Data
 * Foursquare API to obtain information on 3 categories of venues (**health care**, **fitness** & **healthy food**)
 * Walkability scores for each enighbourhood from **Wellbeing Toronto - Civics & Equity Indicators Catalog** found in [toronto open data](https://open.toronto.ca/ "").
-* Pedestrian saftey index for each enighbourhood from **Pedestrians Killed or Seriously Injured (KSI) from a road accident** found in [toronto police service data](https://data.torontopolice.on.ca/datasets/pedestrians/data "").
+* Pedestrian saftey index for each enighbourhood from **Pedestrians Killed or Seriously Injured (KSI)** found in [toronto police service data](https://data.torontopolice.on.ca/datasets/pedestrians/data "").
 
 # Methodology
 # Results
