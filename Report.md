@@ -22,6 +22,11 @@ For all the 140 neighborhoods in Toronto, the following information will be coll
 Finally, the neighborhoods will be clustered together based on the information about access to health care, fitness, healthy food, Walkability scores, and Pedestrian safety index. 
 
 # Methodology
+## Data cleaning
+Toronto has 140 neghibourhoods with specific id numders. The biggest chunck of data anlysis in this project is to find the accessibility to specific venues in each nighbourhood. Doing this in Foursquare requires having information about the coordiantes of each neighbourhood. To find the latitude and longitude of each neighbourhood, first each neighbourhood was broken down to areas covered. Each area coordinates was then calculated using geopy.geocoders package. Lastly the latitude and longitude of each neighbourhood was calcualted by taking the average of all coresponding areas. 
+
+The coordinates were then sorted by both latitude and longitude values to make sure that the results correct.
+
 # Results
 # Discussion
 # Conclusion
