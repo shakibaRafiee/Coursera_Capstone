@@ -28,7 +28,7 @@ Toronto has 140 neghibourhoods with specific ID numders. The **Wellbeing Toronto
 
 ### Pedestrian Safety Index
 To calculated the pedestrian safety index for each neghibourhood, the Toronto pedestrians related collisions data catalog was used. The data was grouped based on the neghibourhood and severity of the injury (fig.1). 
-
+![fig.1](Images/Pedestrian Grouped Example.png)
 
 The pedestrian safety index was defined based on injury frequency. Weights of [1, 2, 3, 4, 5] were assigned to injury groups of [None, Minimal, Minor, Major, Fatal]. The satey index was then calculated as the weighted sum of the frequency of the injury occurances.
 
