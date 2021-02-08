@@ -23,16 +23,16 @@ Finally, the neighborhoods will be clustered together based on the information a
 
 # Methodology
 ## Data cleaning
-### Walkability Score
+### *Walkability Score*
 Toronto has 140 neghibourhoods with specific ID numders. The **Wellbeing Toronto - Civics & Equity Indicators Catalog** was used to find the list of all neghibourhoods in Toronto and their coresponding ID number as well as the walkability score. 
 
-### Pedestrian Safety Index
-To calculated the pedestrian safety index for each neghibourhood, the Toronto pedestrians related collisions data catalog was used. The data was grouped based on the neghibourhood and severity of the injury (fig.1A). Weights of 1, 2, 3, 4, 5 were assigned to injury groups of None, Minimal, Minor, Major, Fatal respectively. The satey index was then calculated as the weighted sum of the frequency of the injury occurances (fig.1B). It was also observed that there were no recorded pedestrian accident for the Neigbourhood with id of 114. Therefore a safety index of 0 was assigned to this neighbourhood
+### *Pedestrian Safety Index*
+To calculated the pedestrian safety index for each neghibourhood, the Toronto pedestrians related collisions data catalog was used. The data was grouped based on the neghibourhood and severity of the injury (fig.1A). Weights of -1, -2, -3, -4 and -5 were assigned to injury groups of *None*, *Minimal*, *Minor*, *Major* and *Fatal* respectively. The pedestrian satey index was then calculated as the weighted sum of the frequency of the injury occurances for each neghibourhood (fig.1B). Lastly, it was also observed that there were no recorded pedestrian accident for the Neigbourhood with id of 114. Therefore a safety index of 0 was assigned to this neighbourhood
 
 <img src="Images/Pedestrian%20Process.png" height = 300>
 
-### Foursquare Venues
-Toronto has 140 neghibourhoods with specific ID numders. The **Wellbeing Toronto - Civics & Equity Indicators Catalog** was used to find the list of all neghibourhoods in Toronto and their coresponding ID number. The biggest chunck of data anlysis in this project is to find the accessibility to specific venues in each nighbourhood. Doing this in Foursquare requires having information about the coordiantes of each neighbourhood. To find the latitude and longitude of each neighbourhood, first each neighbourhood was broken down to the areas it covers. The area coordinates of each area was then obtained using geopy.geocoders package. Lastly the latitude and longitude of each neighbourhood was calcualted by taking the average of all coresponding areas. To make sure that the results are in reasonable range, the coordinates were then sorted by both latitude and longitude values. It was observed that the values for 4 neghibourhoods (Humbermede (22), Woodbine Corridor (64), Lambton Baby Point (114), Wexford/Maryvale (119)) were missing from the tabel; therefore, those values were imported manually. 
+### *Foursquare Venues*
+The biggest chunck of data anlysis in this project is to find the accessibility to specific venues in each nighbourhood. Doing this in Foursquare requires having information about the coordiantes of each neighbourhood. To find the latitude and longitude of each neighbourhood, first each neighbourhood was broken down to the areas it covers. The coordinates of each area was then obtained using geopy.geocoders package. Lastly the latitude and longitude of each neighbourhood was calcualted by taking the average of the coordinates of all coresponding areas. To make sure that the results are in reasonable range, the coordinates were then sorted by both latitude and longitude values. It was observed that the values for 4 neghibourhoods (*Humbermede** (22), *Woodbine Corridor* (64), *Lambton Baby Point* (114), *Wexford/Maryvale* (119)) were missing from the tabel; therefore, those values were imported manually. 
 
 # Results
 # Discussion
