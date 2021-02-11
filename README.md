@@ -4,5 +4,6 @@ In this project I compare neighborhoods of Toronto and rank best areas to live f
 
 Foursquare API was used collect information about the accessibility to health care, exercise and healthy diet in each neighbourhood. 
 
-Read the Report.md for review of the project
-Find the python code in the folder titled code
+For review of the findings, read the Report.
+
+Find the python code in the folder titled Code.
