@@ -30,6 +30,7 @@ Toronto has 140 neghibourhoods with specific ID numders. The **Wellbeing Toronto
 To calculated the pedestrian safety index for each neghibourhood, the Toronto pedestrians related collisions data catalog was used. The data was grouped based on the neghibourhood and severity of the injury (Fig.1A). Weights of 0, -1, -2, -3 and -4 were assigned to injury groups of *None*, *Minimal*, *Minor*, *Major* and *Fatal* respectively. The pedestrian satey index was then calculated as the weighted average of the injury occurances for each neghibourhood. Lastly, it was also observed that there were no recorded pedestrian accident for the Neigbourhood with id of 114. Therefore a safety index of 0 was assigned to this neighbourhood(Fig.1B).
 
 <img src="../Images/Pedestrian%20Process.png" height = 300>
+
 <em>Fig.1 Pedestrian Safety Index Calculation Process</em>
 
 ### *Foursquare Venues*
