@@ -62,8 +62,9 @@ Using the elbow method, it was decided that 7 clusters is sufficiently good for 
 
 # Results
 
-Fig.5 summerizes the mean value of .... for each cluster. 
-<img src="../Images/Elbow.png" height = 200>
+Fig.5 summerizes the average score of each category for each cluster.
+
+<img src="../Images/Clusters.png" height = 200>
 <em>Fig.5 Clusters</em>
 
 # Discussion
