@@ -64,8 +64,13 @@ Using the elbow method, it was decided that 7 clusters is sufficiently good for 
 
 Fig.5 summerizes the average score of each category for each cluster.
 
-<img src="../Images/Clusters.png" height = 300>
+<img src="../Images/Clusters.png" height = 200>
 <em>Fig.5 Clusters</em>
+
+The information in Fig.5 suggests that closter 0 has on average a reletively low walk score and an average hazard index. Closter 4 also has a low walk score, however, it has a relatively good hazard index. Closter 5 has an average walk score, but a good hazard index. For all of these 3 clusters, the venue-related scores were low. Cluster 3 has both a good walks score and good hazard index. It also has better healthcare score compareing to other clusters discussed earlier. The remaining 3 clusters have the least number of nighbourhoods and also have the best venue-relate scores. Cluster 6 has a good walk score but bad hazard index. It also had great fitness score and good healthcare and healthy food scores. Cluster 1 has good walk score, average hazard index and good healthcare, fitness scores and great healthy food score. Finally, Cluster 2 has a great walk score and low hazard index, great healthcare, fitness scores and good healthy food score. Fig. 6 summerizes this information and shows a map of each of these clusters. 
+
+<img src="../Images/Clusters.png" height = 200>
+<em>Fig.6 Map</em>
 
 # Discussion
 
