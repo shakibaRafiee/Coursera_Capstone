@@ -49,19 +49,27 @@ The data cleaning process was then concluded with combinging all the information
 <em>Fig.3 Examples of the final data frame</em>
 
 ## Machine Learnings (Kmeans)
-The goal of this project was to find nieghbourhoods with best accesibility to health-related amenities. Data clutering tecniques are very usefull in recomendation systems when the data is not labled. Therefore, here to find similar nieghbourhoods, the Kmeans method was used. 
+The goal of this project was to find nieghbourhoods in which people with limb loss would prefer to live. Data clutering tecniques are very usefull in recomendation systems when the data is not labled. Therefore, the Kmeans method was used to cluster similar nieghbourhoods in the city of toronto and find the clusters with best accesibility to health-related amenities. 
 
 ### Elbow Method
 Using the elbow method, it was decided that 7 clusters is sufficiently good for this dataset(Fig4). 
 
 <img src="../Images/Elbow.png" height = 200>
-<em>Fig.4 Examples of the final data frame</em>
-. 
+<em>Fig.4 Elbow method</em>
+
+### Clustering
+5 categoreis of information were used to cluster the data: Walk Score, Hazard Index, Healthcare Score, Fitness Score and Healthy Food Score. The input variables were normalized using MinMaxScaler algorithm, and then the nieghbourhoods were grouped into 7 clusters
 
 # Results
 
+Fig.5 summerizes the mean value of .... for each cluster. 
+<img src="../Images/Elbow.png" height = 200>
+<em>Fig.5 Clusters</em>
 
 # Discussion
+
+even though the latitude and longtidue were left out of clustering method, due to the nature of accesibility, the clusters were also logistically close. 
+
 # Conclusion
 The neghbourhoods located in the center of Toronto would be the best place for people with lower leg disability in which to reside. 
 
