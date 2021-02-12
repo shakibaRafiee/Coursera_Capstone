@@ -52,7 +52,11 @@ The data cleaning process was then concluded with combinging all the information
 The goal of this project was to find nieghbourhoods with best accesibility to health-related amenities. Data clutering tecniques are very usefull in recomendation systems when the data is not labled. Therefore, here to find similar nieghbourhoods, the Kmeans method was used. 
 
 ### Elbow Method
-In order to find the ideal number of cluster for our Kmeans, the elbow method was used. 
+Using the elbow method, it was decided that 7 clusters is sufficiently good for this dataset(Fig4). 
+
+<img src="../Images/Elbow.png" height = 200>
+<em>Fig.4 Examples of the final data frame</em>
+. 
 
 # Results
 
