@@ -43,7 +43,7 @@ For each industry, specific keywords were used to find the related venues. For t
 
 The data cleaning process was then concluded with combinging all the information into a single dataframe (Fig3).
 
-<img src="../Images/FinalDF.png" width = 400>
+<img src="../Images/FinalDF.png" height = 200>
 <em>Fig.2 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
 
 ## Machine Learnings (Kmeans)
