@@ -38,14 +38,14 @@ The biggest chunck of data anlysis in this project is to find the accessibility 
 The Foursquare API was then used to *search* the accesibility to **heathcare**, **fitness** and **healthy food** in all neighborhoods of Toronto.
 For each industry, specific keywords were used to find the related venues. For the heathcare industry the following keywords were used :*healthcare*, *rehab*, *medical* and *Physical Therapist*. The keywords for the healthy food industry were: *healthy*, *organic*, *natural* and *vegetarian*. Lastey, the keyword *fintness* was used to find the fintess-related venues. For each industry, the venues were grouped by the category to which they were assinged by Foursquare, and irrelevant categories were omitted. Lastly, the industry score for each nieghbourhood was calculated based on the number of avaiable industry_related venues in that area.(see Fig2 as an example) 
 
-<img src="../Images/IndustryScoreExamples.png" height = 200>
+<img src="../Images/IndustryScoreExamples.png" height = 140>
 <em>Fig.2 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
 
 ### 
 
 The data cleaning process was then concluded with combinging all the information into a single dataframe (Fig3).
 
-<img src="../Images/FinalDF.png" height = 200>
+<img src="../Images/FinalDF.png" height = 140>
 <em>Fig.3 Examples of the final data frame</em>
 
 ## Machine Learnings (Kmeans)
@@ -64,7 +64,7 @@ Using the elbow method, it was decided that 7 clusters is sufficiently good for 
 
 Fig.5 summerizes the average score of each category for each cluster.
 
-<img src="../Images/Clusters.png" height = 200>
+<img src="../Images/Clusters.png" height = 300>
 <em>Fig.5 Clusters</em>
 
 # Discussion
