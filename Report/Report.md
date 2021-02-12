@@ -39,10 +39,23 @@ The Foursquare API was then used to *search* the accesibility to **heathcare**, 
 For each industry, specific keywords were used to find the related venues. For the heathcare industry the following keywords were used :*healthcare*, *rehab*, *medical* and *Physical Therapist*. The keywords for the healthy food industry were: *healthy*, *organic*, *natural* and *vegetarian*. Lastey, the keyword *fintness* was used to find the fintess-related venues. For each industry, the venues were grouped by the category to which they were assinged by Foursquare, and irrelevant categories were omitted. Lastly, the industry score for each nieghbourhood was calculated based on the number of avaiable industry_related venues in that area.(see Fig2 as an example) 
 
 <img src="../Images/IndustryScoreExamples.png" height = 200>
-<em>Fig.1 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
+<em>Fig.2 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
+
+### 
+
+The data cleaning process was then concluded with combinging all the information into a single dataframe (Fig3).
+
+<img src="../Images/FinalDF.png" height = 200>
+<em>Fig.3 Examples of the final data frame</em>
+
+## Machine Learnings (Kmeans)
+The goal of this project was to find nieghbourhoods with best accesibility to health-related amenities. Data clutering tecniques are very usefull in recomendation systems when the data is not labled. Therefore, here to find similar nieghbourhoods, the Kmeans method was used. 
+
+### Elbow Method
+In order to find the ideal number of cluster for our Kmeans, the elbow method was used. 
 
 # Results
-The Kmeans method was used, becuase it is an unsupervized method and this project,, similar to many real word problmes, the data are not tagged. Using Kmeans allows one to cluster groups togethers based on the distance from each other clusters
+
 
 # Discussion
 # Conclusion
@@ -52,4 +65,3 @@ The neghbourhoods located in the center of Toronto would be the best place for p
 * Hussain, M. A., Al-Omran, M., Salata, K., Sivaswamy, A., Forbes, T. L., Sattar, N., ... & de Mestral, C. (2019). Population-based secular trends in lower-extremity amputation for diabetes and peripheral artery disease. CMAJ, 191(35), E955-E961.
 * Imam, B., Miller, W. C., Finlayson, H. C., Eng, J. J., & Jarus, T. (2017). Incidence of lower limb amputation in Canada. Canadian Journal of Public Health, 108(4), 374-380.
 * Kayssi, A., de Mestral, C., Forbes, T. L., & Roche-Nagle, G. (2016). A Canadian population-based description of the indications for lower-extremity amputations and outcomes. Canadian Journal of Surgery, 59(2), 99.
-
