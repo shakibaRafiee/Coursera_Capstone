@@ -52,4 +52,3 @@ The neghbourhoods located in the center of Toronto would be the best place for p
 * Hussain, M. A., Al-Omran, M., Salata, K., Sivaswamy, A., Forbes, T. L., Sattar, N., ... & de Mestral, C. (2019). Population-based secular trends in lower-extremity amputation for diabetes and peripheral artery disease. CMAJ, 191(35), E955-E961.
 * Imam, B., Miller, W. C., Finlayson, H. C., Eng, J. J., & Jarus, T. (2017). Incidence of lower limb amputation in Canada. Canadian Journal of Public Health, 108(4), 374-380.
 * Kayssi, A., de Mestral, C., Forbes, T. L., & Roche-Nagle, G. (2016). A Canadian population-based description of the indications for lower-extremity amputations and outcomes. Canadian Journal of Surgery, 59(2), 99.
-
