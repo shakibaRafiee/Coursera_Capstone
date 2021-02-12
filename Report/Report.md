@@ -37,10 +37,17 @@ To calculated the pedestrian safety index for each neghibourhood, the Toronto pe
 The biggest chunck of data anlysis in this project is to find the accessibility to specific venues in each nighbourhood. Doing this in Foursquare requires having information about the coordiantes of each neighbourhood. To find the latitude and longitude of each neighbourhood, first each neighbourhood was broken down to the areas it covers. The coordinates of each area was then obtained using geopy.geocoders package. Lastly the latitude and longitude of each neighbourhood was calcualted by taking the average of the coordinates of all coresponding areas. To make sure that the results are in reasonable range, the coordinates were then sorted by both latitude and longitude values. It was observed that the values for 4 neghibourhoods (*Humbermede** (22), *Woodbine Corridor* (64), *Lambton Baby Point* (114), *Wexford/Maryvale* (119)) were missing from the tabel; therefore, those values were imported manually. 
 
 The Foursquare API was used to *search* the accesibility to **heathcare**, **fitness** and **healthy food** in all neighborhoods of Toronto.
+For each industry, specific keywords were used to find the related venues. For the heathcare industry the following keywords were used :*healthcare*, *rehab*, *medical* and *Physical Therapist*. The keywords for the healthy food industry were: *healthy*, *organic*, *natural* and *vegetarian* . Lastey, the keyword *fintness* was used to find the fintess-related venues
+
+For each industry, the venues were grouped by their categories and irrelevant categories were omitted.
 
 # Results
+The Kmeans method was used, becuase it is an unsupervized method and this project,, similar to many real word problmes, the data are not tagged. Using Kmeans allows one to cluster groups togethers based on the distance from each other clusters
+
 # Discussion
 # Conclusion
+The neghbourhoods located in the center of Toronto would be the best place for people with lower leg disability in which to reside. 
+
 # Refrences
 * Hussain, M. A., Al-Omran, M., Salata, K., Sivaswamy, A., Forbes, T. L., Sattar, N., ... & de Mestral, C. (2019). Population-based secular trends in lower-extremity amputation for diabetes and peripheral artery disease. CMAJ, 191(35), E955-E961.
 * Imam, B., Miller, W. C., Finlayson, H. C., Eng, J. J., & Jarus, T. (2017). Incidence of lower limb amputation in Canada. Canadian Journal of Public Health, 108(4), 374-380.
