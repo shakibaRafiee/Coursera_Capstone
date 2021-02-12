@@ -41,10 +41,12 @@ For each industry, specific keywords were used to find the related venues. For t
 <img src="../Images/IndustryScoreExamples.png" height = 200>
 <em>Fig.2 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
 
+
+
 The data cleaning process was then concluded with combinging all the information into a single dataframe (Fig3).
 
 <img src="../Images/FinalDF.png" height = 200>
-<em>Fig.2 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
+<em>Fig.3 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
 
 ## Machine Learnings (Kmeans)
 The goal of this project was to find nieghbourhoods with best accesibility to health-related amenities. Data clutering tecniques are very usefull in recomendation systems when the data is not labled. Therefor, here to find similar nieghbourhoods, the Kmeans method was used. 
