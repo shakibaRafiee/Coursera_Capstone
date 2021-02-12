@@ -17,7 +17,7 @@ For all the 140 neighborhoods in Toronto, the following information will be coll
 * Information about the **geo coordinates** of each neighborhood using python geopy.geocoders package
 * Information about access (i.e. frequency) to 3 categories of venues (**health care**, **fitness** & **healthy food**) in each neighborhood, using Foursquare API
 * Walkability scores for each neighborhood from **Wellbeing Toronto - Civics & Equity Indicators Catalog** found in [toronto open data](https://open.toronto.ca/ "").
-* Pedestrian saftey index for each neighborhood from **Pedestrians Killed or Seriously Injured (KSI)** found in [toronto police service data](https://data.torontopolice.on.ca/datasets/pedestrians/data "").
+* Pedestrian safety index for each neighborhood from **Pedestrians Killed or Seriously Injured (KSI)** found in [toronto police service data](https://data.torontopolice.on.ca/datasets/pedestrians/data "").
 
 Finally, the neighborhoods will be clustered together based on the information about access to health care, fitness, healthy food, Walkability scores, and Pedestrian safety index. 
 
