@@ -43,22 +43,22 @@ For each industry, specific keywords were used to find the related venues. For t
 
 ### 
 
-The data cleaning process was then concluded with combinging all the information into a single dataframe (Fig3).
+The data cleaning process was then concluded by combining all the information into a single data frame (Fig3).
 
 <img src="../Images/FinalDF.png" height = 140>
 <em>Fig.3 Examples of the final data frame</em>
 
 ## Machine Learnings (Kmeans)
-The goal of this project was to find nieghbourhoods in which people with limb loss would prefer to live. Data clutering tecniques are very usefull in recomendation systems when the data is not labled. Therefore, the Kmeans method was used to cluster similar nieghbourhoods in the city of toronto and find the clusters with best accesibility to health-related amenities. 
+The goal of this project was to find Toronto neighborhoods in which people with a lower-limb loss would prefer to live. Data clustering techniques are very useful in recommendation systems when the data is not labeled. Therefore, the Kmeans method was used to cluster similar neighborhoods in the city of Toronto and find the clusters with the best accessibility to health-related amenities.
 
 ### Elbow Method
-Using the elbow method, it was decided that 7 clusters is sufficiently good for this dataset(Fig4). 
+Using the elbow method, it was decided that 7 clusters are sufficiently good for this dataset(Fig4). 
 
 <img src="../Images/Elbow.png" height = 200>
 <em>Fig.4 Elbow method</em>
 
 ### Clustering
-5 categoreis of information were used to cluster the data: Walk Score, Hazard Index, Healthcare Score, Fitness Score and Healthy Food Score. The input variables were normalized using MinMaxScaler algorithm, and then the nieghbourhoods were grouped into 7 clusters
+5 categories of information were used to cluster the data: Walk Score, Hazard Index, Healthcare Score, Fitness Score, and Healthy Food Score. The input variables were normalized using the MinMaxScaler algorithm, and then the neighborhoods were grouped into 7 clusters.
 
 # Results
 
@@ -67,9 +67,10 @@ Fig.5 summerizes the average score of each category for each cluster.
 <img src="../Images/Clusters.png" height = 200>
 <em>Fig.5 Clusters</em>
 
-The information in Fig.5 suggests that closter 0 has on average a reletively low walk score and an average hazard index. Closter 4 also has a low walk score, however, it has a relatively good hazard index. Closter 5 has an average walk score, but a good hazard index. For all of these 3 clusters, the venue-related scores were low. Cluster 3 has both a good walks score and good hazard index. It also has better healthcare score compareing to other clusters discussed earlier. The remaining 3 clusters have the least number of nighbourhoods and also have the best venue-relate scores. Cluster 6 has a good walk score but bad hazard index. It also had great fitness score and good healthcare and healthy food scores. Cluster 1 has good walk score, average hazard index and good healthcare, fitness scores and great healthy food score. Finally, Cluster 2 has a great walk score and low hazard index, great healthcare, fitness scores and good healthy food score. Fig. 6 summerizes this information and shows a map of each of these clusters. 
+###
+The information in Fig.5 suggests that cluster 0 has on average a relatively low walk score and an average hazard index. Closter 4 also has a low walk score, however, it has a relatively good hazard index. Closter 5 has an average walk score, but a good hazard index. For all of these 3 clusters, the venue-related scores were low. Cluster 3 has both a good walk score and a good hazard index. It also has a better healthcare score comparing to other clusters discussed earlier. The remaining 3 clusters have the least number of neighborhoods and also have the best venue-relate scores. Cluster 6 has a good walk score but a bad hazard index. It also had a great fitness score and good healthcare and healthy food scores. Cluster 1 has a good walk score, average hazard index and good healthcare, fitness scores, and great healthy food score. Finally, Cluster 2 has a great walk score and low hazard index, great healthcare, fitness scores and good healthy food score. Fig. 6 summarizes this information and shows a map of all the Toronto neighborhoods grouped into these 7 clusters.
 
-<img src="../Images/Map.png" height = 500>
+<img src="../Images/Map.png" height = 600>
 <em>Fig.6 Map</em>
 
 # Discussion
