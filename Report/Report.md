@@ -1,7 +1,7 @@
 # Introduction
 
 ## Background:
-The population of people with lower-limb loss has grown over the past decade in Canada [Hussain, et al., 2019]. Across all Canadian provinces, Ontario has the highest percent of amputations with a 37.7% rate [Imam, et al., 2017]. A recent study reports an average of 2787 new lower leg amputations each year from 2006 to 2012 in Ontario alone [Imam, et al., 2017]. This growing population needs accessible housing.
+The population of people with lower-limb loss has grown over the past decade in Canada [Hussain, et al., 2019]. Across all Canadian provinces, Ontario has the highest percent of amputations with a 37.7% rate [Imam, et al., 2017]. A recent study reports an average of 2787 new lower leg amputations each year from 2006 to 2012 in Ontario alone [Imam, et al., 2017]. This population needs accessible housing.
 
 In Canada, similar to most other industrial countries, majority of the lower limb amputation occurs after admission for diabetic complications [Kayssi, et al., 2016, Imam, et al., 2017]. Other factors for leg amputations are trauma, cardiovascular disease, and cancer. Therefore, having a healthy diet and maintaining an active lifestyle is of paramount importance for this population. The neighborhood in which one lives can increase/restrict access to these amenities. 
 
@@ -75,10 +75,10 @@ The information in Fig.5 suggests that cluster 0 has on average a relatively low
 
 # Discussion
 
-even though the latitude and longtidue were left out of clustering method, due to the nature of accesibility, the clusters were also logistically close. 
+The results suggest that the neighborhoods in clusters 1, 2, and 6 have the best scores across all categories, and therefore are ideal locations for people with a lower-limb loss to live. These 9 neighborhoods include University, Yonge-St.Clair, Moss Park, Bay Street Corridor, Bathurst Manor, Church-Yonge Corridor, Kensington-Chinatown, Trinity-Bellwoods, and Annex. One interesting observation was that even though latitude and longitude values were left out of clustering calculation, in the end, these clusters were found to be logistically close.
 
 # Conclusion
-The neghbourhoods located in the center of Toronto would be the best place for people with lower leg disability in which to reside. 
+The neghbourhoods located in the downtown Toronto would be the best place for people with lower-lib loss in which to reside. As these neghbourhoods provide good access to healthcare, healthy diet and fitness.
 
 # Refrences
 * Hussain, M. A., Al-Omran, M., Salata, K., Sivaswamy, A., Forbes, T. L., Sattar, N., ... & de Mestral, C. (2019). Population-based secular trends in lower-extremity amputation for diabetes and peripheral artery disease. CMAJ, 191(35), E955-E961.
