@@ -39,10 +39,18 @@ The Foursquare API was then used to *search* the accesibility to **heathcare**, 
 For each industry, specific keywords were used to find the related venues. For the heathcare industry the following keywords were used :*healthcare*, *rehab*, *medical* and *Physical Therapist*. The keywords for the healthy food industry were: *healthy*, *organic*, *natural* and *vegetarian*. Lastey, the keyword *fintness* was used to find the fintess-related venues. For each industry, the venues were grouped by the category to which they were assinged by Foursquare, and irrelevant categories were omitted. Lastly, the industry score for each nieghbourhood was calculated based on the number of avaiable industry_related venues in that area.(see Fig2 as an example) 
 
 <img src="../Images/IndustryScoreExamples.png" height = 200>
-<em>Fig.1 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
+<em>Fig.2 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
+
+The data cleaning process was then concluded with combinging all the information into a single dataframe (Fig3).
+
+<img src="../Images/FinalDF.png" width = 400>
+<em>Fig.2 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
+
+## Machine Learnings (Kmeans)
+The goal of this project was to find nieghbourhoods with best accesibility to health-related amenities. Data clutering tecniques are very usefull in recomendation systems when the data is not labled. Therefor, here to find similar nieghbourhoods, the Kmeans method was used. 
 
 # Results
-The Kmeans method was used, becuase it is an unsupervized method and this project,, similar to many real word problmes, the data are not tagged. Using Kmeans allows one to cluster groups togethers based on the distance from each other clusters
+
 
 # Discussion
 # Conclusion
