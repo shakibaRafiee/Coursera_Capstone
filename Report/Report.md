@@ -78,7 +78,7 @@ The information in Fig.5 suggests that cluster 0 has on average a relatively low
 The results suggest that the neighborhoods in clusters 1, 2, and 6 have the best scores across all categories, and therefore are ideal locations for people with a lower-limb loss to live. These 9 neighborhoods include University, Yonge-St.Clair, Moss Park, Bay Street Corridor, Bathurst Manor, Church-Yonge Corridor, Kensington-Chinatown, Trinity-Bellwoods, and Annex. One interesting observation was that even though latitude and longitude values were left out of clustering calculation, in the end, these clusters were found to be logistically close.
 
 # Conclusion
-The neghbourhoods located in the downtown Toronto would be the best place for people with lower-lib loss in which to reside. As these neghbourhoods provide good access to healthcare, healthy diet and fitness.
+The neighborhoods located in downtown Toronto would be the best place for people with lower-lib loss in which to reside. As these neighborhoods provide good access to healthcare, a healthy diet, and fitness.
 
 # Refrences
 * Hussain, M. A., Al-Omran, M., Salata, K., Sivaswamy, A., Forbes, T. L., Sattar, N., ... & de Mestral, C. (2019). Population-based secular trends in lower-extremity amputation for diabetes and peripheral artery disease. CMAJ, 191(35), E955-E961.
