@@ -29,7 +29,7 @@ Toronto has 140 neghibourhoods with specific ID numders. The **Wellbeing Toronto
 ### *Pedestrian Safety Index*
 To calculated the pedestrian safety index for each neghibourhood, the Toronto pedestrians related collisions data catalog was used. The data was grouped based on the neghibourhood and severity of the injury (Fig.1A). Weights of 0, -1, -2, -3 and -4 were assigned to injury groups of *None*, *Minimal*, *Minor*, *Major* and *Fatal* respectively. The Hazard Index was then calculated as the weighted average of the injury occurances for each neghibourhood(Fig.1B). Lastly, it was observed that there were no recorded pedestrian accident for the Neigbourhood with id of 114. Therefore a Hazard Index of 0 was assigned to this neighbourhood.
 
-<img src="../Images/HazardIndexProcess.png" height = 200>
+<img src="../Images/HazardIndexProcess.png" height = 300>
 <em>Fig.1 Pedestrian Hazard Index Calculation Process</em>
 
 ### *Foursquare Venues*
@@ -38,7 +38,7 @@ The biggest chunck of data anlysis in this project is to find the accessibility 
 The Foursquare API was then used to *search* the accesibility to **heathcare**, **fitness** and **healthy food** in all neighborhoods of Toronto.
 For each industry, specific keywords were used to find the related venues. For the heathcare industry the following keywords were used :*healthcare*, *rehab*, *medical* and *Physical Therapist*. The keywords for the healthy food industry were: *healthy*, *organic*, *natural* and *vegetarian*. Lastey, the keyword *fintness* was used to find the fintess-related venues. For each industry, the venues were grouped by the category to which they were assinged by Foursquare, and irrelevant categories were omitted. Lastly, the industry score for each nieghbourhood was calculated based on the number of avaiable industry_related venues in that area.(see Fig2 as an example) 
 
-<img src="../Images/IndustryScoreExamples.png" height = 300>
+<img src="../Images/IndustryScoreExamples.png" height = 200>
 <em>Fig.1 Examples of Industry Scores for top neighbourhoods based on avaiable industry_related venues</em>
 
 # Results
